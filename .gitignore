@@ -1,1 +1,4 @@
 .idea
+node_modules
+kss_styleguide/styleguide
+kss_styleguide/custom-template/node_modules
