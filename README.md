@@ -1,4 +1,4 @@
-# Michelangelo Styleguide
+# Ftshp Michelangelo Styleguide
 [![npm version](https://badge.fury.io/js/michelangelo.svg)](https://badge.fury.io/js/michelangelo)
 
 
@@ -15,13 +15,8 @@
 
 
 ## About
-This is a custom template for the KSS-node living style guide.
-
-
-
-## Demo
-Have a look at [the demo styleguide](http://stamkracht.github.io/michelangelo/section-settings.html) generated with dummy content to get an impression of the Michelangelo theme with the ITCSS architecture.
-
+This is a custom template for the KSS-node living style guide created on top of the [Michelangelo template](https://github.com/stamkracht/michelangelo)
+Adjusted as a template for Footshop styleguide
 
 
 ## Get started
@@ -32,7 +27,7 @@ Go to your project directory. If you haven't installed KSS-node yet, install it 
 Now, install the Michelangelo package locally.
 
 ```
-npm install michelangelo --save-dev
+npm install ftshp-michelangelo --save-dev
 ```
 
 Create a kss-config file `touch kss-config.json` and specify the required config:
@@ -47,12 +42,12 @@ Create a kss-config file `touch kss-config.json` and specify the required config
 Read [the KSS-node docs](https://github.com/kss-node/kss-node#using-the-command-line-tool) for more information about the config, or use the example below. *Note: the source config should refer to your styles directory.*
 ```
 {
-  "title"        : "Michelangelo Styleguide",
+  "title"        : "Ftshp Michelangelo Styleguide",
   "mask"         : "*.scss",
   "placeholder"  : "[modifier]",
 
 "//": "relative to this file.",
-  "builder"      : "node_modules/michelangelo/kss_styleguide/custom-template/",
+  "builder"      : "node_modules/ftshp-michelangelo/kss_styleguide/custom-template/",
   "source"       : "src/",
   "destination"  : "kss_styleguide/styleguide/",
 
