@@ -173,9 +173,11 @@ $kss-modifiers-name-color: $cowabunga;
   text-transform: none;
   margin: 0;
   margin-bottom: 5px;
-  font-size: rem(16px);
+  font-size: rem(22px);
   font-weight: 400;
   color: $kss-modifiers-name-color;
+  border-top: 1px dashed gray;
+  padding-top: 20px;
 }
 
 .kss-modifiers__description { margin: 0; }
